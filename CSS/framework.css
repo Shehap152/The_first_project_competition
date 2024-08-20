@@ -1,0 +1,113 @@
+:root {
+    --main-color: #5cd2b8;
+    --section-color: #151515;
+    --gray-color: #a09f9f;
+    --black-color: black;
+}
+
+.social-color {
+    color: #0ef;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.gray-color {
+    color: var(--gray-color);
+}
+
+.white-color {
+    color: white;
+}
+
+.bg-main-color {
+    background-color: var(--main-color);
+}
+
+.bg-section-color {
+    background-color: var(--section-color);
+}
+
+.bg-black-color {
+    background-color: var(--black-color);
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.column-flex {
+    flex-direction: column;
+}
+
+.align-cnter {
+    align-items: center;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width : 768px) {
+    .d-mobile {
+        flex-direction: column;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+}
+
+.gap-5 {
+    gap: 5px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* padding and margin  */
+.p-10 {
+    padding: 10px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-t-20 {
+    margin-top: 20px;
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.line-hight {
+    line-height: 2;
+}
